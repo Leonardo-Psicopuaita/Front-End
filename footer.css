@@ -1,0 +1,66 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: blue;
+    color: white;
+}
+a {
+    color: red;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1E1E1E;
+}
+header {
+    background: #6850FF;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #e3dcdc;
+    text-decoration: none;
+}
+main {
+    padding: 1rem;
+}
+.secao1 {
+    background: #9c9ca8;
+    padding: 1rem;
+    text-align: center;
+}
+h1 {
+    @import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap);
+    font-family: 'Oswald';
+}
+#menu {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 70px;
+}
+#conta {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    height: 70px;
+}
+#logo {
+    height: 150px;
+    
+
+}
